@@ -20,9 +20,7 @@ The current repository contains a python script 'build.py' and a configuration f
         "branch":"base_llvm_clang_8.0"
     },
 	"generate":{
-	    "dir":"build",
-        "generator":"Visual Studio 15 2017",
-        "toolset":"v141"
+	    "dir":"build"
 	},
     "build":{   
         "target":"clang-tidy",
@@ -59,7 +57,7 @@ optional arguments:
 
 # example
 
-Make sure that Visual studio 2017, cmake, python 3.x have installed on your machine.
+Make sure that cmake, python 3.x have installed on your machine.
 
 ```
 python build.py -update -generate -build
