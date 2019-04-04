@@ -1,0 +1,22 @@
+{
+    "llvm":{
+        "url":"https://github.com/llvm-mirror/llvm.git",
+        "branch":"release_80",
+        "version":""
+    },
+    "clang":{
+        "url":"https://github.com/llvm-mirror/clang.git",
+        "branch":"release_80"
+    },
+    "extra":{
+        "url":"https://github.com/llvm-mirror/clang-tools-extra.git",
+        "branch":"release_80"
+    },
+	"generate":{
+	    "dir":"build",
+	},
+    "build":{   
+        "target":"clang-tidy",
+        "version":"Release"
+    }
+}
