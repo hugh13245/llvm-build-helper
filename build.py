@@ -52,6 +52,7 @@ def build_target(build,dir,target,version):
     print(' '.join(build_target_command))
     os.system(' '.join(build_target_command))
     os.chdir(repo)
+
 def main():
     parser = argparse.ArgumentParser(description='Clone,update,build llvm/clang/extra with specified configuration')
     parser.add_argument('-update',action='store_true',
